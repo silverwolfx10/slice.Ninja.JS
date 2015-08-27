@@ -1,7 +1,7 @@
 {
   "name": "slice.Ninja.JS",
   "version": "0.0.0",
-  "description": "Servico que facilita a comunicacao com os servidores remotos via http com o objeto XMLHttpRequest a funcao curry, retornando um promisse",
+  "description": "Retorna uma cópia superficial de um array para um novo array",
   "main": "slice.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
