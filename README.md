@@ -1,6 +1,6 @@
 ### $slice
 
-Retorna uma cópia superficial de um array para um novo array
+Retorna uma cópia superficial de um array para um novo array a funcao curry
 
 ```javascript
 this.Ninja(['$slice'], function ($slice) {
