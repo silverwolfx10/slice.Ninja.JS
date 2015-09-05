@@ -2,7 +2,7 @@
  * $slice
  * 
  * Retorna uma cópia superficial de um array para um novo
- * array a funcao curry
+ * array
  * 
  * @module $slice
  * @author Cleber de Moraes Goncalves <cleber.programmer>
@@ -11,7 +11,7 @@
  *        $slice(['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'], 1, 3);
  * 
  */
-this.Ninja.module('$slice', ['$curry'], function ($curry) {
+this.Ninja.module('$slice', [], function () {
   
   /**
    * Retorna uma cópia superficial de um array para um novo array
@@ -35,6 +35,6 @@ this.Ninja.module('$slice', ['$curry'], function ($curry) {
    * Revelacao do modulo $slice, encapsulando a visibilidade das funcoes
    * privadas
    */
-  return $curry(slice);
+  return slice;
   
 });
