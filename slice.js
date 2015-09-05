@@ -35,6 +35,6 @@ this.Ninja.module('$slice', [], function () {
    * Revelacao do modulo $slice, encapsulando a visibilidade das funcoes
    * privadas
    */
-  return slice
+  return slice;
   
 });
